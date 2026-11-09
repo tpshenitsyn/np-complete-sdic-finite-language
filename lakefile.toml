@@ -1,0 +1,6 @@
+name = "supersequence-reduction"
+defaultTargets = ["SupersequenceReduction"]
+
+[[lean_lib]]
+name = "SupersequenceReduction"
+moreLeanArgs = ["-j", "1", "-s", "65536"]
